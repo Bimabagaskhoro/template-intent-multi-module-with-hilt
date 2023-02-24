@@ -1,0 +1,6 @@
+dependencies {
+    // Dagger hilt
+    def daggerHiltVersion = "2.42"
+    implementation "com.google.dagger:hilt-android:$daggerHiltVersion"
+    kapt "com.google.dagger:hilt-android-compiler:$daggerHiltVersion"
+}
